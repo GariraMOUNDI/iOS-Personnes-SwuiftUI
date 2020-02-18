@@ -21,9 +21,14 @@ struct ContentView: View {
             VStack{
                 Text("Hello,Moundi ")
                 
-                List(data.listPersonnes) { pers in
-                    NavigationLink(destination: InfoView(person: pers)){
-                        ListCell(person: pers)
+                List {
+                    ForEach(data.listPersonnes){ pers in
+                        NavigationLink(destination: InfoView(person: pers)){
+                            ListCell(person: pers)
+                        }
+                    }.onDelete{ (index) in
+                        self.data.listPersonnes.remove(atOffsets: index
+                        )
                     }
                     
                 }.navigationBarTitle("Personnes")
