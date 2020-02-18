@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6118772F23FAE90500A5E31B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6118772E23FAE90500A5E31B /* Person.swift */; };
+		61380CE023F697E8006895D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61380CDF23F697E8006895D2 /* AppDelegate.swift */; };
+		61380CE223F697E8006895D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61380CE123F697E8006895D2 /* SceneDelegate.swift */; };
+		61380CE423F697E8006895D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61380CE323F697E8006895D2 /* ContentView.swift */; };
+		61380CE623F697EA006895D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61380CE523F697EA006895D2 /* Assets.xcassets */; };
+		61380CE923F697EA006895D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61380CE823F697EA006895D2 /* Preview Assets.xcassets */; };
+		61380CEC23F697EA006895D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61380CEA23F697EA006895D2 /* LaunchScreen.storyboard */; };
+		61380CF723F697EA006895D2 /* Moundi_First_SwuiftUI_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61380CF623F697EA006895D2 /* Moundi_First_SwuiftUI_AppTests.swift */; };
+		61380D0223F697EA006895D2 /* Moundi_First_SwuiftUI_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61380D0123F697EA006895D2 /* Moundi_First_SwuiftUI_AppUITests.swift */; };
+		61F40F3E23FBF93B0025343F /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F40F3D23FBF93B0025343F /* ListCell.swift */; };
+		61F40F4023FBFE8E0025343F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F40F3F23FBFE8E0025343F /* InfoView.swift */; };
+		61F40F4223FC01A50025343F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F40F4123FC01A50025343F /* AddView.swift */; };
+		61F40F4423FC27BD0025343F /* PersonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F40F4323FC27BD0025343F /* PersonSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61380CF323F697EA006895D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61380CD423F697E8006895D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61380CDB23F697E8006895D2;
+			remoteInfo = "Moundi First SwuiftUI App";
+		};
+		61380CFE23F697EA006895D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61380CD423F697E8006895D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61380CDB23F697E8006895D2;
+			remoteInfo = "Moundi First SwuiftUI App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6118772E23FAE90500A5E31B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		61380CDC23F697E8006895D2 /* Moundi First SwuiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moundi First SwuiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61380CDF23F697E8006895D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61380CE123F697E8006895D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61380CE323F697E8006895D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61380CE523F697EA006895D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61380CE823F697EA006895D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61380CEB23F697EA006895D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61380CED23F697EA006895D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61380CF223F697EA006895D2 /* Moundi First SwuiftUI AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moundi First SwuiftUI AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61380CF623F697EA006895D2 /* Moundi_First_SwuiftUI_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moundi_First_SwuiftUI_AppTests.swift; sourceTree = "<group>"; };
+		61380CF823F697EA006895D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61380CFD23F697EA006895D2 /* Moundi First SwuiftUI AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moundi First SwuiftUI AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61380D0123F697EA006895D2 /* Moundi_First_SwuiftUI_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moundi_First_SwuiftUI_AppUITests.swift; sourceTree = "<group>"; };
+		61380D0323F697EA006895D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F40F3D23FBF93B0025343F /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		61F40F3F23FBFE8E0025343F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		61F40F4123FC01A50025343F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		61F40F4323FC27BD0025343F /* PersonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61380CD923F697E8006895D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CEF23F697EA006895D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CFA23F697EA006895D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6118772D23FAE8E300A5E31B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6118772E23FAE90500A5E31B /* Person.swift */,
+				61F40F4323FC27BD0025343F /* PersonSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61380CD323F697E8006895D2 = {
+			isa = PBXGroup;
+			children = (
+				61380CDE23F697E8006895D2 /* Moundi First SwuiftUI App */,
+				61380CF523F697EA006895D2 /* Moundi First SwuiftUI AppTests */,
+				61380D0023F697EA006895D2 /* Moundi First SwuiftUI AppUITests */,
+				61380CDD23F697E8006895D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61380CDD23F697E8006895D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61380CDC23F697E8006895D2 /* Moundi First SwuiftUI App.app */,
+				61380CF223F697EA006895D2 /* Moundi First SwuiftUI AppTests.xctest */,
+				61380CFD23F697EA006895D2 /* Moundi First SwuiftUI AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61380CDE23F697E8006895D2 /* Moundi First SwuiftUI App */ = {
+			isa = PBXGroup;
+			children = (
+				61F40F3A23FBF8F40025343F /* Views */,
+				6118772D23FAE8E300A5E31B /* Model */,
+				61380CDF23F697E8006895D2 /* AppDelegate.swift */,
+				61380CE123F697E8006895D2 /* SceneDelegate.swift */,
+				61380CE323F697E8006895D2 /* ContentView.swift */,
+				61380CE523F697EA006895D2 /* Assets.xcassets */,
+				61380CEA23F697EA006895D2 /* LaunchScreen.storyboard */,
+				61380CED23F697EA006895D2 /* Info.plist */,
+				61380CE723F697EA006895D2 /* Preview Content */,
+			);
+			path = "Moundi First SwuiftUI App";
+			sourceTree = "<group>";
+		};
+		61380CE723F697EA006895D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61380CE823F697EA006895D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61380CF523F697EA006895D2 /* Moundi First SwuiftUI AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				61380CF623F697EA006895D2 /* Moundi_First_SwuiftUI_AppTests.swift */,
+				61380CF823F697EA006895D2 /* Info.plist */,
+			);
+			path = "Moundi First SwuiftUI AppTests";
+			sourceTree = "<group>";
+		};
+		61380D0023F697EA006895D2 /* Moundi First SwuiftUI AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61380D0123F697EA006895D2 /* Moundi_First_SwuiftUI_AppUITests.swift */,
+				61380D0323F697EA006895D2 /* Info.plist */,
+			);
+			path = "Moundi First SwuiftUI AppUITests";
+			sourceTree = "<group>";
+		};
+		61F40F3A23FBF8F40025343F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61F40F3D23FBF93B0025343F /* ListCell.swift */,
+				61F40F3F23FBFE8E0025343F /* InfoView.swift */,
+				61F40F4123FC01A50025343F /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61380CDB23F697E8006895D2 /* Moundi First SwuiftUI App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61380D0623F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI App" */;
+			buildPhases = (
+				61380CD823F697E8006895D2 /* Sources */,
+				61380CD923F697E8006895D2 /* Frameworks */,
+				61380CDA23F697E8006895D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moundi First SwuiftUI App";
+			productName = "Moundi First SwuiftUI App";
+			productReference = 61380CDC23F697E8006895D2 /* Moundi First SwuiftUI App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61380CF123F697EA006895D2 /* Moundi First SwuiftUI AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61380D0923F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI AppTests" */;
+			buildPhases = (
+				61380CEE23F697EA006895D2 /* Sources */,
+				61380CEF23F697EA006895D2 /* Frameworks */,
+				61380CF023F697EA006895D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61380CF423F697EA006895D2 /* PBXTargetDependency */,
+			);
+			name = "Moundi First SwuiftUI AppTests";
+			productName = "Moundi First SwuiftUI AppTests";
+			productReference = 61380CF223F697EA006895D2 /* Moundi First SwuiftUI AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61380CFC23F697EA006895D2 /* Moundi First SwuiftUI AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61380D0C23F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI AppUITests" */;
+			buildPhases = (
+				61380CF923F697EA006895D2 /* Sources */,
+				61380CFA23F697EA006895D2 /* Frameworks */,
+				61380CFB23F697EA006895D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61380CFF23F697EA006895D2 /* PBXTargetDependency */,
+			);
+			name = "Moundi First SwuiftUI AppUITests";
+			productName = "Moundi First SwuiftUI AppUITests";
+			productReference = 61380CFD23F697EA006895D2 /* Moundi First SwuiftUI AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61380CD423F697E8006895D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user165586;
+				TargetAttributes = {
+					61380CDB23F697E8006895D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					61380CF123F697EA006895D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61380CDB23F697E8006895D2;
+					};
+					61380CFC23F697EA006895D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61380CDB23F697E8006895D2;
+					};
+				};
+			};
+			buildConfigurationList = 61380CD723F697E8006895D2 /* Build configuration list for PBXProject "Moundi First SwuiftUI App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61380CD323F697E8006895D2;
+			productRefGroup = 61380CDD23F697E8006895D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61380CDB23F697E8006895D2 /* Moundi First SwuiftUI App */,
+				61380CF123F697EA006895D2 /* Moundi First SwuiftUI AppTests */,
+				61380CFC23F697EA006895D2 /* Moundi First SwuiftUI AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61380CDA23F697E8006895D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61380CEC23F697EA006895D2 /* LaunchScreen.storyboard in Resources */,
+				61380CE923F697EA006895D2 /* Preview Assets.xcassets in Resources */,
+				61380CE623F697EA006895D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CF023F697EA006895D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CFB23F697EA006895D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61380CD823F697E8006895D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F40F4223FC01A50025343F /* AddView.swift in Sources */,
+				61380CE023F697E8006895D2 /* AppDelegate.swift in Sources */,
+				61380CE223F697E8006895D2 /* SceneDelegate.swift in Sources */,
+				6118772F23FAE90500A5E31B /* Person.swift in Sources */,
+				61F40F3E23FBF93B0025343F /* ListCell.swift in Sources */,
+				61F40F4423FC27BD0025343F /* PersonSet.swift in Sources */,
+				61F40F4023FBFE8E0025343F /* InfoView.swift in Sources */,
+				61380CE423F697E8006895D2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CEE23F697EA006895D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61380CF723F697EA006895D2 /* Moundi_First_SwuiftUI_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61380CF923F697EA006895D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61380D0223F697EA006895D2 /* Moundi_First_SwuiftUI_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61380CF423F697EA006895D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61380CDB23F697E8006895D2 /* Moundi First SwuiftUI App */;
+			targetProxy = 61380CF323F697EA006895D2 /* PBXContainerItemProxy */;
+		};
+		61380CFF23F697EA006895D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61380CDB23F697E8006895D2 /* Moundi First SwuiftUI App */;
+			targetProxy = 61380CFE23F697EA006895D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61380CEA23F697EA006895D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61380CEB23F697EA006895D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61380D0423F697EA006895D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61380D0523F697EA006895D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61380D0723F697EA006895D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Moundi First SwuiftUI App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Moundi First SwuiftUI App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61380D0823F697EA006895D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Moundi First SwuiftUI App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Moundi First SwuiftUI App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61380D0A23F697EA006895D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Moundi First SwuiftUI AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moundi First SwuiftUI App.app/Moundi First SwuiftUI App";
+			};
+			name = Debug;
+		};
+		61380D0B23F697EA006895D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Moundi First SwuiftUI AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moundi First SwuiftUI App.app/Moundi First SwuiftUI App";
+			};
+			name = Release;
+		};
+		61380D0D23F697EA006895D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Moundi First SwuiftUI AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Moundi First SwuiftUI App";
+			};
+			name = Debug;
+		};
+		61380D0E23F697EA006895D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Moundi First SwuiftUI AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moundi.Moundi-First-SwuiftUI-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Moundi First SwuiftUI App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61380CD723F697E8006895D2 /* Build configuration list for PBXProject "Moundi First SwuiftUI App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61380D0423F697EA006895D2 /* Debug */,
+				61380D0523F697EA006895D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61380D0623F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61380D0723F697EA006895D2 /* Debug */,
+				61380D0823F697EA006895D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61380D0923F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61380D0A23F697EA006895D2 /* Debug */,
+				61380D0B23F697EA006895D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61380D0C23F697EA006895D2 /* Build configuration list for PBXNativeTarget "Moundi First SwuiftUI AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61380D0D23F697EA006895D2 /* Debug */,
+				61380D0E23F697EA006895D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61380CD423F697E8006895D2 /* Project object */;
+}
