@@ -13,21 +13,20 @@ struct ListCell: View {
     var person: Person
     var body: some View {
         
-        HStack(spacing: 80.0) {
+        HStack(spacing: 50.0) {
             HStack(alignment: .center, spacing: 20.0) {
                 Text(person.nom)
                     .fontWeight(.bold)
+                    .frame(width: 100.0)
                 Text(person.prenom)
                     .fontWeight(.bold)
+                    .frame(width: 100.0)
             }
             HStack{
                 Text(person.job)
                     .multilineTextAlignment(.trailing)
             }
-            
         }
-        .padding(.leading, 10.0)
-        .padding(.trailing, 10.0)
         
         
     }

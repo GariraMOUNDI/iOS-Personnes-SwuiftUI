@@ -13,6 +13,7 @@ struct ContentView: View {
     @ObservedObject var data = PersonSet([
         Person(nom: "Moih", prenom: "Toik", departement: "Herault", job: "Ingenieur")
     ])
+    @State private var showAddView: Bool = false
     
     var body: some View {
         
@@ -27,9 +28,16 @@ struct ContentView: View {
                     
                 }.navigationBarTitle("Personnes")
                 
-                NavigationLink(destination: AddView(listP: data) ){
+                /*
+                    NavigationLink(destination: AddView(listP: data) ){
                     Text("Ajouter + ")
-                }
+                }*/
+                
+                Button(action: {self.showAddView.toggle()}) {
+                    Text("Ajouter +")
+                }.sheet(isPresented: $showAddView, content: {
+                    AddView(listP: self.data, show: self.$showAddView)
+                })
             }
         }
         
